@@ -7,3 +7,23 @@
   font-weight: normal;
 }
 
+button {
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  height: 35px;
+  width: 100px;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.5s ease-out;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+button:active {
+  transform: scale(0.96);
+}
+
+
